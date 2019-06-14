@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>git_practice</title>
+<title>合計</title>
 </head>
 <body>
 <div>１から入力した値まで足し算します</div>
