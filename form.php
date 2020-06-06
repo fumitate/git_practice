@@ -7,7 +7,7 @@
 <body>
 <div>１から入力した値まで足し算します</div>
 <form method="post" action="calculate.php">
-<p>数値:<input type="text" name="num"></p>
+<p>数値:<input type="text" name="max_num"></p>
 <input type="submit" value="計算">
 </form>
 </body>

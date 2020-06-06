@@ -1,14 +1,14 @@
 <?php
-$num1 = $_POST['num'];
+$max_num = $_POST['max_num'];
 $total = 0;
 
-if (!is_numeric($num1)) {
+if (!is_numeric($max_num)) {
 	$message = '数字以外が含まれています';
-} elseif ($num1 < 1) {
+} elseif ($max_num < 1) {
 	$message = '１以上の数値を入力して下さい';
 } else {
-	for ($num2 = 1; $num2 <= $num1; $num2++) {
-		$total += $num2;
+	for ($num = 1; $num <= $max_num; $num++) {
+		$total += $num;
 	}
 	$message = '合計：' . $total;
 }
